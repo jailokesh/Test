@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+#aside { 
+    margin-left: 205px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    #aside { 
+        margin-left: 50px !important;
+        margin-right: 5px;
+    }
+}
+

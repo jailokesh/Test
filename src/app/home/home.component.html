@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div style="width: 100%;">
+        <p class="text-center" style="color: #FFF; font-size: 20px;">
+            Angular Test
+        </p>
+    </div>
+</nav>
+<div class="side-nav">
+    <div class="list" [routerLink]="['/home/india']"> 
+        <div class="list-text">
+            <p>India</p>
+        </div>
+        <div class="list-img">
+            <img src="assets/images/india.png">
+        </div>
+    </div>
+    <div class="list" [routerLink]="['/home/australia']"> 
+        <div class="list-text">
+            <p>Australia</p>
+        </div>
+        <div class="list-img">
+            <img src="assets/images/australia.jpeg">
+        </div>
+    </div>
+    <div class="list" [routerLink]="['/home/canada']"> 
+        <div class="list-text">
+            <p>Canada</p>
+        </div>
+        <div class="list-img">
+            <img src="assets/images/canada.png" style="width: 30px">
+        </div>
+    </div>
+    <div class="list" [routerLink]="['/home/usa']"> 
+        <div class="list-text">
+            <p>USA</p>
+        </div>
+        <div class="list-img">
+            <img src="assets/images/usa.png">
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
