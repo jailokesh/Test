@@ -1,0 +1,41 @@
+.navbar{
+    height: 55px;
+}
+
+.side-nav {
+    height: 100%;
+    background-color: #FFF;
+    border: 1px solid rgba(0,0,0,.12);
+    width:200px;
+    position: fixed; 
+    padding: 10px
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.list p{
+    outline: none;
+}
+
+.list-img img {
+    height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .side-nav {
+        margin-left: -150px;
+    } 
+    .list {
+        display: grid;
+        grid-template-columns: 85% 15%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
